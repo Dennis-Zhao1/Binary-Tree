@@ -9,7 +9,7 @@ def get_height(root):
         return 0
 
     return max(get_height(root.left),get_height(root.right)) + 1
-    
+# O(n)    # 
 
 myTree = TreeNode(5,TreeNode(4,TreeNode(6,TreeNode(8,TreeNode(9))),TreeNode(6,TreeNode(8,TreeNode(9)))),TreeNode(4,TreeNode(6,TreeNode(8,TreeNode(9)))))
 
